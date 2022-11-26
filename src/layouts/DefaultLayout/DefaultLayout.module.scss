@@ -1,0 +1,22 @@
+@import "../../assets/scss/variables.scss";
+
+.default-layout {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: $main-bg;
+    padding: 8px 0;
+    overflow: hidden;
+}
+
+.default-layout__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    z-index: 1;
+}
+
+.default-layout__routes {
+    transition: 1s;
+}

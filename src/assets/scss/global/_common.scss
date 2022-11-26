@@ -1,0 +1,66 @@
+@import "../variables.scss";
+
+body {
+    font-family: $basic-font;
+    font-size: 14px;
+    font-weight: 400;
+    color: #515956;
+    background-color: $main-bg;
+    color: $main-color;
+}
+
+.default-layout__routes {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.page-enter .default-layout__routes {
+    opacity: 0;
+
+    &::before {
+        transform: translateX(100%);
+    }
+}
+
+.page-enter-active .default-layout__routes {
+    opacity: 1;
+
+    &::before {
+        transform: translateX(0);
+    }
+}
+
+.page-exit {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.page-exit-active .default-layout__routes {
+    &::before {
+        transform: translateX(0);
+    }
+}
+
+.default-layout__routes {
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        background: $brand-color;
+        transform: translateX(-100%);
+        transition: 0.5s;
+    }
+}
+
+/* page-enter page-enter-active */
+
+/* page-exit page-exit-active */

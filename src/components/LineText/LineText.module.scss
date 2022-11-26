@@ -1,0 +1,39 @@
+.line-text {
+    position: absolute;
+    top: 50%;
+    font-weight: 700;
+    font-size: 52px;
+    margin: auto;
+    white-space: nowrap;
+    width: 100%;
+    color: #9f9e9e;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #b0b0b0;
+    transform: rotate(-30deg) translateY(-50%);
+}
+
+.line-text__top {
+    animation: scroll2 25s infinite linear;
+}
+
+.line-text__bot {
+    animation: scroll 25s infinite linear;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+@keyframes scroll2 {
+    0% {
+        transform: translate(0, 0) rotate(180deg);
+    }
+    100% {
+        transform: translate(100%, 0) rotate(180deg);
+    }
+}

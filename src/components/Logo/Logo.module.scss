@@ -1,0 +1,66 @@
+@import "../../assets/scss/mixins.scss";
+
+.logo {
+    @include active;
+    position: relative;
+    display: block;
+    width: 84px;
+    height: 42px;
+
+    @include media-md {
+        height: 38px;
+        width: 68px;
+    }
+
+    @include media-sm {
+        height: 26px;
+        width: 46px;
+    }
+
+    @include landscape {
+        height: 26px;
+        width: 46px;
+    }
+}
+
+.logo__wrap2,
+.logo__wrap1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo__wrap2 {
+    height: 80%;
+    animation: mask 1.5s linear forwards;
+    animation-delay: 0.5s;
+}
+
+.logo__pic {
+    width: 84px;
+    height: 42px;
+
+    @include media-md {
+        height: 38px;
+        width: 68px;
+    }
+
+    @include media-sm {
+        height: 26px;
+        width: 46px;
+    }
+
+    @include landscape {
+        height: 26px;
+        width: 46px;
+    }
+}
+
+@keyframes mask {
+    to {
+        height: 0;
+    }
+}

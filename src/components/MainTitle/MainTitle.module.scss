@@ -1,0 +1,30 @@
+@import "../../assets/scss/variables.scss";
+@import "../../assets/scss/mixins.scss";
+
+.main-title {
+    margin: auto;
+    z-index: 2;
+    color: $main-color;
+    font-size: 82px;
+    max-width: 1024px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+
+    @include media-xl {
+        font-size: 58px;
+    }
+
+    @include media-md {
+        max-width: 710px;
+        transition: 0.3s;
+    }
+
+    @include media-sm {
+        font-size: 34px;
+    }
+
+    @include landscape {
+        font-size: 34px;
+    }
+}
