@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/test-react-the-first-the-last/static/css/main.f045f519.css",
+    "main.js": "/test-react-the-first-the-last/static/js/main.2e695949.js",
+    "static/media/GrtskGiga-Bold.woff": "/test-react-the-first-the-last/static/media/GrtskGiga-Bold.b9695b343daa68689f32.woff",
+    "static/media/GrtskGiga-Regular.woff": "/test-react-the-first-the-last/static/media/GrtskGiga-Regular.f53bc3f30d78c4f042d5.woff",
+    "static/media/GrtskGiga-Bold.woff2": "/test-react-the-first-the-last/static/media/GrtskGiga-Bold.3199e30e6f53c560a254.woff2",
+    "static/media/GrtskGiga-Regular.woff2": "/test-react-the-first-the-last/static/media/GrtskGiga-Regular.6b7f9e2d323b0075c04d.woff2",
+    "static/media/lang.svg": "/test-react-the-first-the-last/static/media/lang.f8df065c0076d843791b9d51bdc4513d.svg",
+    "static/media/circle-text.svg": "/test-react-the-first-the-last/static/media/circle-text.e92e3a9b3d8786abe261ba2ba8505cb5.svg",
+    "static/media/logo-white.svg": "/test-react-the-first-the-last/static/media/logo-white.ac7379e642f4f15befeb0bac615ff9da.svg",
+    "static/media/logo.svg": "/test-react-the-first-the-last/static/media/logo.9b47b8619cf560e2efd22d94dfeee17c.svg",
+    "index.html": "/test-react-the-first-the-last/index.html",
+    "main.f045f519.css.map": "/test-react-the-first-the-last/static/css/main.f045f519.css.map",
+    "main.2e695949.js.map": "/test-react-the-first-the-last/static/js/main.2e695949.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f045f519.css",
+    "static/js/main.2e695949.js"
+  ]
+}
